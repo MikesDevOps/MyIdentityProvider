@@ -1,3 +1,21 @@
 create class library, add duende project with ui, test users
 develop branch added
 created azure app service
+can launch azure app, see doc, but other functions give error, e.g.
+	view claims: 
+		This myidentityprovider-h2edavhgdsd9ehfu.centralus-01.azurewebsites.net page can’t be found
+		No webpage was found for the web address: https://myidentityprovider-h2edavhgdsd9ehfu.centralus-01.azurewebsites.net/diagnostics
+		HTTP ERROR 404
+	view server side sessions:
+		This myidentityprovider-h2edavhgdsd9ehfu.centralus-01.azurewebsites.net page can’t be found
+		No webpage was found for the web address: https://myidentityprovider-h2edavhgdsd9ehfu.centralus-01.azurewebsites.net/diagnostics/sessions
+		HTTP ERROR 404This myidentityprovider-h2edavhgdsd9ehfu.centralus-01.azurewebsites.net page can’t be found
+		No webpage was found for the web address: https://myidentityprovider-h2edavhgdsd9ehfu.centralus-01.azurewebsites.net/serversidesessions
+		HTTP ERROR 404
+
+
+Sources:
+	Duende docs: IdentityServer Deployment
+	https://docs.duendesoftware.com/identityserver/deployment/
+	Duende github: (Admin configuration for Azure)
+	https://github.com/skoruba/Duende.IdentityServer.Admin/blob/main/docs/Configure-Azure-Deploy.md
