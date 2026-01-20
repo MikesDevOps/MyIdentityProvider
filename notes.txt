@@ -1,1 +1,3 @@
+create class library, add duende project with ui, test users
 develop branch added
+created azure app service
